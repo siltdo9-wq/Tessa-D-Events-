@@ -477,108 +477,117 @@
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="prestations">
-        <div class="section-title fade-in">
-            <h2>Nos Prestations</h2>
-            <p>Des solutions complètes pour sublimer votre événement, de la location de mobilier à la décoration florale</p>
-        </div>
-        
-        <div class="services-grid">
-            <div class="service-card fade-in">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600" alt="Location de chaises" loading="lazy">
-                </div>
-                <div class="service-content">
-                    <h3>Location de Mobilier</h3>
-                    <p>Des chaises Chiavari aux tables en bois massif, découvrez notre sélection de mobilier haut de gamme pour votre réception.</p>
-                    <ul>
-                        <li>Chaises Chiavari (or, argent, transparent)</li>
-                        <li>Tables rondes et rectangulaires</li>
-                        <li>Bar et tabourets</li>
-                        <li>Lounge et mobilier d'extérieur</li>
-                    </ul>
-                    <a href="#devis" class="btn">En savoir plus</a>
-                </div>
+<section class="services" id="prestations">
+    <div class="section-title fade-in">
+        <h2>Nos Prestations</h2>
+        <p>Des solutions complètes pour sublimer votre événement, de la location de mobilier à la décoration florale</p>
+    </div>
+    
+    <div class="services-grid">
+        <div class="service-card fade-in">
+            <div class="service-image">
+                <img src="https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600" alt="Location de chaises" loading="lazy">
             </div>
+            <div class="service-content">
+                <h3>Location de Mobilier</h3>
+                <p>Des chaises Chiavari aux tables en bois massif, découvrez notre sélection de mobilier haut de gamme pour votre réception.</p>
+                <ul>
+                    <li>Chaises Chiavari (or, argent, transparent)</li>
+                    <li>Tables rondes et rectangulaires</li>
+                    <li>Bar et tabourets</li>
+                    <li>Lounge et mobilier d'extérieur</li>
+                </ul>
+                <a href="#devis" class="btn">En savoir plus</a>
+            </div>
+        </div>
 
-            <div class="service-card fade-in">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600" alt="Arche florale" loading="lazy">
-                </div>
-                <div class="service-content">
-                    <h3>Décoration Florale</h3>
-                    <p>Des compositions florales sur mesure pour créer l'ambiance romantique et élégante de vos rêves.</p>
-                    <ul>
-                        <li>Arches et structures florales</li>
-                        <li>Centres de table</li>
-                        <li>Bouquets de mariée</li>
-                        <li>Décoration d'allée</li>
-                    </ul>
-                    <a href="#devis" class="btn">En savoir plus</a>
-                </div>
+        <div class="service-card fade-in">
+            <div class="service-image">
+                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600" alt="Arche florale" loading="lazy">
             </div>
+            <div class="service-content">
+                <h3>Décoration Florale</h3>
+                <p>Des compositions florales sur mesure pour créer l'ambiance romantique et élégante de vos rêves.</p>
+                <ul>
+                    <li>Arches et structures florales</li>
+                    <li>Centres de table</li>
+                    <li>Bouquets de mariée</li>
+                    <li>Décoration d'allée</li>
+                </ul>
+                <a href="#devis" class="btn">En savoir plus</a>
+            </div>
+        </div>
 
-            <div class="service-card fade-in">
-                <div class="service-image">
-                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600" alt="Accessoires de décoration" loading="lazy">
-                </div>
-                <div class="service-content">
-                    <h3>Accessoires & Détails</h3>
-                    <p>La touche finale qui fait toute la différence. Découvrez nos accessoires soigneusement sélectionnés.</p>
-                    <ul>
-                        <li>Vaisselle et verrerie</li>
-                        <li>Linge de table</li>
-                        <li>Éclairage et bougies</li>
-                        <li>Panneaux et signalétique</li>
-                    </ul>
-                    <a href="#devis" class="btn">En savoir plus</a>
-                </div>
+        <div class="service-card fade-in">
+            <div class="service-image">
+                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600" alt="Accessoires de décoration" loading="lazy">
+            </div>
+            <div class="service-content">
+                <h3>Accessoires & Détails</h3>
+                <p>La touche finale qui fait toute la différence. Découvrez nos accessoires soigneusement sélectionnés.</p>
+                <ul>
+                    <li>Vaisselle et verrerie</li>
+                    <li>Linge de table</li>
+                    <li>Éclairage et bougies</li>
+                    <li>Panneaux et signalétique</li>
+                </ul>
+                <a href="#devis" class="btn">En savoir plus</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Gallery Section -->
-    <section class="gallery" id="galerie">
-        <div class="section-title fade-in">
-            <h2>Notre Galerie</h2>
-            <p>Inspirez-vous de nos réalisations et imaginez votre propre décoration de rêve</p>
+<!-- Gallery Section -->
+<section class="gallery" id="galerie">
+    <div class="section-title fade-in">
+        <h2>Notre Galerie</h2>
+        <p>Inspirez-vous de nos réalisations et imaginez votre propre décoration de rêve</p>
+    </div>
+    
+    <div class="gallery-grid">
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" alt="Réception élégante" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
         </div>
-        
-        <div class="gallery-grid">
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600" alt="Réception élégante" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-            </div>
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600" alt="Décoration florale" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-            </div>
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600" alt="Table d'honneur" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-            </div>
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600" alt="Salle de réception" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-            </div>
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600" alt="Centre de table" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-            </div>
-            <div class="gallery-item fade-in" onclick="openlightbox(this)">
-                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600" alt="Cérémonie" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-                <div class="gallery-item fade-in" onclick="openLightbox(this)">
-                <img src="https://images.unsplash.com/photo-1529634892488-2d3d5c2b2c7f?w=600" alt="Décoration élégante salle" loading="lazy">
-               <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-              </div>
-                
-                <div class="gallery-item fade-in" onclick="openLightbox(this)">
-                <img src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?w=600" alt="Table mariage luxe" loading="lazy">
-                <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
-              </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600" alt="Décoration florale" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
         </div>
-    </section>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600" alt="Table d'honneur" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600" alt="Salle de réception" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1478146059778-26028b07395a?w=600" alt="Centre de table" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600" alt="Cérémonie" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1529634892488-2d3d5c2b2c7f?w=600" alt="Décoration élégante salle" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+        <div class="gallery-item fade-in" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1507504031003-b417219a0fde?w=600" alt="Table mariage luxe" loading="lazy">
+            <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+        </div>
+
+    </div>
+</section>
 
     <!-- Quote Section -->
     <section class="quote-section" id="devis">
@@ -1592,6 +1601,35 @@
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') closeLightbox();
     });
+<script>
+function openLightbox(el) {
+    const img = el.querySelector("img");
+
+    const modal = document.createElement("div");
+    modal.style.position = "fixed";
+    modal.style.top = "0";
+    modal.style.left = "0";
+    modal.style.width = "100%";
+    modal.style.height = "100%";
+    modal.style.background = "rgba(0,0,0,0.9)";
+    modal.style.display = "flex";
+    modal.style.alignItems = "center";
+    modal.style.justifyContent = "center";
+    modal.style.zIndex = "9999";
+
+    const image = document.createElement("img");
+    image.src = img.src;
+    image.style.maxWidth = "90%";
+    image.style.maxHeight = "80%";
+    image.style.borderRadius = "10px";
+
+    modal.appendChild(image);
+
+    modal.onclick = () => modal.remove();
+
+    document.body.appendChild(modal);
+}
 </script>
+
 </body>
 </html>
