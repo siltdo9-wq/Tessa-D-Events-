@@ -354,7 +354,41 @@
             .success-container { padding: 1.5rem 1rem; }
             .btn-download-pdf, .btn-new-quote { width: 100%; margin-left: 0; }
         }
-    </style>
+    <style>
+    /* Lightbox styles */
+    .lightbox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        z-index: 10000;
+        justify-content: center;
+        align-items: center;
+        cursor: zoom-out;
+    }
+    .lightbox.active {
+        display: flex;
+    }
+    .lightbox img {
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        border-radius: 8px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+    .lightbox-close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        z-index: 10001;
+    }
+</style>
 </head>
 <body>
     <!-- Top Bar -->
@@ -840,8 +874,8 @@
                     </div>
                 </div>
                 <div class="social-links">
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                   <a href="https://www.facebook.com/tessaetdevents" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                   <a href="https://www.instagram.com/tessaetdevents" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
                 </div>
             </div>
@@ -1525,5 +1559,31 @@
             form.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     </script>
+     <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img src="" alt="Zoom" id="lightboxImg">
+</div>
+
+<script>
+    function openLightbox(element) {
+        const img = element.querySelector('img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeLightbox() {
+        const lightbox = document.getElementById('lightbox');
+        lightbox.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+    
+    // Fermer avec Escape
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeLightbox();
+    });
+</script>
 </body>
 </html>
